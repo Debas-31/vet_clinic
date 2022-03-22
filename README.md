@@ -1,7 +1,10 @@
-## Vet clinic database: create animals table
+## Vet clinic database: query and update animals table
 
->In this project i used a relational database to create the initial data structure for a vet clinic. You will create a table to store animals' information, insert some data into it, and query it.
+>In this milestone of the project, i used transactions to update and delete records, aggregate functions and GROUP BY to answer analytical questions.
 
+## Built With
+
+- PLpgSQL
 
 ## Getting Started
 
