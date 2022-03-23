@@ -13,3 +13,21 @@ CREATE TABLE animals (
 
 ALTER TABLE animals
 ADD COLUMN species VARCHAR;
+
+/* Day three query multiple tables */
+
+CREATE TABLE owners (
+  id INT PRIMARY KEY NOT NULL GENERATED ALWAYS AS IDENTITY,
+  full_name VARCHAR(100) NOT NULL,
+  age INT
+);
+
+CREATE TABLE species (
+  id INT PRIMARY KEY NOT NULL GENERATED ALWAYS AS IDENTITY,
+  name VARCHAR(100) NOT NULL
+);
+
+SELECT id FROM animals;
+ALTER TABLE animals DROP  COLUMN species;
+ALTER TABLE species ADD FOREIGN KEY (species_id) REFERENCES species(id);
+ALTER TABLE species ADD FOREIGN KEY (species_id) REFERENCES species(id);
