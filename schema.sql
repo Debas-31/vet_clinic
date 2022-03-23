@@ -8,3 +8,8 @@ CREATE TABLE animals (
   neutered BOOLEAN, 
   weight_kg DECIMAL
 );
+
+/* Day two update and delete records  */
+
+ALTER TABLE animals
+ADD COLUMN species VARCHAR;
