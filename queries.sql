@@ -93,3 +93,10 @@ SELECT full_name, COUNT(name) FROM owners O
     LEFT JOIN animals A
     ON O.id = A.owner_id
     GROUP BY full_name;
+
+/* Update who owns most animals */
+SELECT full_name, COUNT(name) FROM owners O
+    LEFT JOIN animals A
+    ON O.id = A.owner_id   GROUP BY full_name 
+    ORDER BY COUNT(name) 
+    DESC LIMIT 1;

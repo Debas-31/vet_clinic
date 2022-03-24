@@ -53,3 +53,12 @@ UPDATE animals
 SET owner_id = 5
 WHERE name = 'Angemon' OR name = 'Boarmon';
 
+/* Update the respective species id*/
+UPDATE animals 
+SET species_id = 2
+WHERE name LIKE '%mon';
+
+UPDATE animals
+SET species_id = 1
+WHERE name NOT LIKE '%mon';
+
