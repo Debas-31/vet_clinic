@@ -6,6 +6,8 @@
 
 - PLpgSQL
 
+## ![screenShot](./vet_clinic_schema.ScreenShot).
+
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
