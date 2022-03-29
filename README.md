@@ -6,7 +6,8 @@
 
 - PLpgSQL
 
-## ![screenShot](./vet_clinic_schema.ScreenShot).
+## screenShot
+ >![screenshot](https://i.postimg.cc/vTTtG3W9/vet-clinic-2022-03-29-14-59.png)
 
 ## Getting Started
 
